@@ -1,12 +1,82 @@
-let numbers = [{name:'shyam',age:70},{name:'ram',age:30},{name:'shyam',age:50}];
+
+///  Set example /////
+
+
+// let items=[1,1,2,3,6,3,8,10,28];
+
+// items=new Set(items);
+// console.log(items);
+
+/// map example and interval example ////
+
+
+// let objects=new Map();
+
+// objects.set(Date.now(),'John');
+
+// let counter=0;
+// const intervalId=setInterval(()=>{
+
+// objects.set(Date.now(),'John');
+// counter++;
+// if(counter>10){
+
+//     console.log(objects);
+
+//     clearInterval(intervalId);
+
+// }
+// },1000);
+
+ //////// settimeout example ////////
+
+    // console.log(Date.now());
+
+    // setTimeout(()=>{
+    //     console.log(Date.now());
+        
+    // },1000);
+ 
 
 
 
-numbers.push({name:'pawan',age:70});
+/// string ops////
 
-numbers.splice(1,1);
 
-console.log(numbers);
+ let str='Hello World shyam';
+
+ console.log(str.split(' '));
+ console.log(str.split(' ').join('-'));
+ console.log(str.replace(' ','-'));
+ console.log(str.replaceAll(' ','-'));
+
+    console.log(str.includes('shyam'));
+
+let video="video/mpeg4 mpeg4";
+
+console.log(video.startsWith('video'));
+
+console.log(video.endsWith('mpeg4'));
+
+console.log(video.indexOf('mpeg4'));
+
+console.log(video.lastIndexOf('mpeg4'));
+
+
+
+
+
+
+
+// let numbers = [{name:'shyam',age:70},{name:'ram',age:30},{name:'shyam',age:50}];
+
+
+
+// numbers.push({name:'pawan',age:70});
+
+// numbers.splice(1,1);
+
+// console.log(numbers);
 //    const val= numbers.sort((a,b)=>{
 //         return a.age-b.age;
 //     });
